@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "realestateapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authrealestateappce0ce4db",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

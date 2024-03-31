@@ -23,6 +23,9 @@
       },
       "auth": {
         "realestateappce0ce4db": {}
+      },
+      "api": {
+        "realestateapp": {}
       }
     }
   }
